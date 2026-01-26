@@ -159,7 +159,7 @@
                 />
               </div>
               <div>
-                <label for="name" class="name">your phone number</label>
+                <label for="number" class="name">your phone number</label>
                 <input
                   id="number"
                   name="number"
@@ -169,8 +169,13 @@
                 />
               </div>
               <div>
-                <label for="name" class="name">number of guests</label>
-                <select class="guests" id="choose-item" name="guests" required>
+                <label for="select-where" class="name">number of guests</label>
+                <select
+                  class="select-where"
+                  id="select-where"
+                  name="select-where"
+                  required
+                >
                   <option value="">Please choose one option</option>
                   <option value="1">1</option>
                   <option value="2">2</option>
@@ -179,7 +184,7 @@
                 </select>
               </div>
               <div>
-                <label for="name" class="name">check in date</label>
+                <label for="date" class="name">check in date</label>
                 <input
                   id="date"
                   name="date"
@@ -189,14 +194,25 @@
                 />
               </div>
               <div>
-                <label for="name" class="name">choose your destination</label>
+                <label for="select-where-item" class="name"
+                  >choose your destination</label
+                >
                 <select
-                  id="choose-item"
-                  class="select-item"
-                  name=""
-                  placeholder="Ex. John Smithee"
+                  id="select-where-item"
+                  class="select-where"
+                  name="select-where"
+                  aria-label="Default select example"
+                  onchange="this.form.click()"
                   required
-                ></select>
+                >
+                  <option value="">ex. Switzerland, Lausanne</option>
+                  <option value="Italy, Roma">Italy, Roma</option>
+                  <option value="France, Paris">France, Paris</option>
+                  <option value="Engaland, London">Engaland, London</option>
+                  <option value="Switzerland, Lausanne">
+                    Switzerland, Lausanne
+                  </option>
+                </select>
               </div>
             </form>
           </div>
