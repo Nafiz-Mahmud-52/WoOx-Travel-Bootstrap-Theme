@@ -1,0 +1,14 @@
+/* ////////////////////////////////////// */
+/* ABOUT TURE SECTION */
+/* ////////////////////////////////////// */
+
+.deals-section {
+}
+.deals-container {
+}
+.deals-background-img {
+  background-image: url(../images/heading-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

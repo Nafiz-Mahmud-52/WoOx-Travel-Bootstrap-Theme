@@ -59,17 +59,14 @@ body:not(.light) {
 }
 
 .hero-img {
-  background: url(/images/banner-01.jpg) no-repeat center center;
+  background: url(/images/banner-01.jpg);
   background-size: cover;
-}
-
-.hero-img {
   width: inherit;
   height: inherit;
   text-align: center;
   background-repeat: no-repeat;
   opacity: 1;
-  background-position: 50%, 50%;
+  background-position: center;
 }
 
 .hero-absolute-container {
