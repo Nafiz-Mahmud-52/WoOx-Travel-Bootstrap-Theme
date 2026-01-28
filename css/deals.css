@@ -15,7 +15,7 @@
 }
 
 /* ////////////////////////////////////// */
-/* ABOUT TURE SECTION */
+/* DEALS HERO SECTION */
 /* ////////////////////////////////////// */
 
 .deals-section {
@@ -29,14 +29,47 @@
   background-repeat: no-repeat;
   opacity: 1;
   padding: 260px 0px 190px 0px;
+  text-align: center;
 }
 
-.deals-title{
-  font-size: 20px;
+.deals-title {
+  font-size: 1.25rem;
   font-weight: 500;
-  color: var();
+  color: var(--white-color);
+  text-transform: capitalize;
+  margin-bottom: 1.125rem;
 }
-.deals-big-title{
+.deals-big-title {
+  font-size: 3.125rem;
+  margin-bottom: 1.875rem;
+  color: var(--white-color);
+  text-transform: capitalize;
+  line-height: 3.75rem;
+}
 
+.deals-link a:link,
+.deals-link a:visited {
+  color: var(--white-color);
+  margin-bottom: 5px;
 }
-.deals-link
+
+/* ////////////////////////////////////// */
+/* DEALS FORM SECTION */
+/* ////////////////////////////////////// */
+
+.form-section {
+  padding: 0 12px;
+}
+.form-container {
+  background: var(--primery-color);
+  border-bottom-left-radius: 23px;
+  border-bottom-right-radius: 23px;
+  padding: 35px 60px;
+}
+.form-title {
+  font-size: 20px;
+  color: var(--white-color);
+  margin: 7px 0px 13px 0px;
+}
+.main-form {
+}

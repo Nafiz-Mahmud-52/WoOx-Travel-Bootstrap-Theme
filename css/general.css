@@ -216,9 +216,17 @@ h6 {
 .reservation-more-link:visited,
 .about-more-link:link,
 .about-more-link:visited {
-  color: var(--primery-color);
-  border: 1px solid var(--white-color);
   background: var(--white-color);
+  color: var(--primery-color);
+}
+
+.deals-link a:link,
+.deals-link a:visited,
+.reservation-more-link:link,
+.reservation-more-link:visited,
+.about-more-link:link,
+.about-more-link:visited {
+  border: 1px solid var(--white-color);
   padding: 12px 30px;
   display: inline-block;
   border-radius: 25px;
@@ -230,6 +238,8 @@ h6 {
   font-size: 14px;
 }
 
+.deals-link a:hover,
+.deals-link a:active,
 .reservation-more-link:hover,
 .reservation-more-link:active,
 .about-more-link:hover,
