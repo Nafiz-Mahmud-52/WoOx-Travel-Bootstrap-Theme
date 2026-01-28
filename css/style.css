@@ -458,50 +458,6 @@ body:not(.light) {
   border-bottom: none;
 }
 
-.page-number-container {
-  justify-items: center;
-  text-align: center;
-}
-
-.page-list li {
-  margin: 0px 7px;
-}
-
-.page-list a:link,
-.page-list a:visited {
-  font-size: 1rem;
-  width: 46px;
-  height: 46px;
-  color: var(--primery-color);
-  line-height: 44px;
-  font-weight: 500;
-  transition: all 0.3s;
-  text-align: center;
-  display: inline-block;
-  background: transparent;
-  border: 1px solid var(--primery-color);
-  border-radius: 50%;
-}
-
-.page-list a:hover,
-.page-list a:active {
-  background: var(--primery-color);
-  color: var(--white-color);
-}
-
-.page-list li:nth-child(3) a {
-  background: var(--primery-color);
-  color: var(--white-color);
-}
-
-.page-list li:nth-child(1) a,
-.page-list li:nth-child(5) a {
-  border: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .live-location {
   margin-top: 60px;
 }
