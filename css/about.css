@@ -60,11 +60,17 @@
   top: 40%;
   z-index: inherit;
 }
+
 .town-button button {
   display: inline-block;
   border: none;
   background: none;
   color: var(--text-color);
+  cursor: pointer;
+}
+
+.town-button button:hover {
+  color: var(--primery-color);
 }
 
 .twon-picture {
@@ -146,7 +152,8 @@
 .img-havana,
 .img-kingston,
 .img-george-town {
-  width: 51%;
+  width: 100%;
+  padding-right: 160px;
   display: block;
   border-top-left-radius: 23px;
   border-bottom-left-radius: 23px;
@@ -160,7 +167,8 @@
   padding: 30px;
   top: 50%;
   right: 1%;
-  width: 79%;
+  /* width: 51%; */
+  width: 273px;
   transform: translateY(-50%);
 }
 
@@ -415,7 +423,7 @@
 
 .location-view {
   position: relative;
-  width: 75%;
+  width: 80%;
   margin-bottom: 20px;
   border-radius: 15px;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);

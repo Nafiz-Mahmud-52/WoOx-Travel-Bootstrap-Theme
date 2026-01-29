@@ -1,0 +1,200 @@
+/* ////////////////////////////////////// */
+/* minimum width: 544px */
+/* ////////////////////////////////////// */
+
+@media (min-width: 34em) {
+  .country-item {
+    display: flex;
+    gap: 1rem;
+  }
+  .country-img {
+    width: 38%;
+    height: 38%;
+  }
+
+  .live-location {
+    padding: 0 1.5rem;
+  }
+
+  .reservation-hero-container,
+  .about-hero-container {
+    margin: 0 2rem;
+  }
+
+  .town-contaier {
+    width: 90%;
+    height: 90%;
+  }
+
+  .town-button {
+    right: 0%;
+    top: 43%;
+    left: inherit;
+  }
+
+  .action-2-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* column-gap: 20px; */
+    flex-wrap: wrap;
+  }
+
+  .number-box {
+    width: 45%;
+    flex-shrink: 0;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  .cta-action-container {
+    padding: 0 2rem;
+  }
+  .location-view {
+    width: 65%;
+  }
+
+  .form-section {
+    padding: 0 2rem;
+  }
+
+  .best-deals {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .deals-item {
+    width: 45%;
+    margin: 0 0.75rem;
+  }
+  .deals-item-header {
+    line-height: 23px;
+  }
+
+  .weekly-limit,
+  .time-duration {
+    width: 50%;
+    display: block;
+  }
+
+  .time-duration svg,
+  .weekly-limit svg {
+    position: relative;
+    top: 1px;
+  }
+}
+
+/* ////////////////////////////////////// */
+/* minimum width: 704px */
+/* ////////////////////////////////////// */
+
+@media (min-width: 44em) {
+  .country-item {
+    margin-left: 4rem;
+    margin-right: 4rem;
+    gap: 1.5rem;
+  }
+
+  .live-location {
+    padding: 0 4rem;
+  }
+
+  .reservation-hero-container,
+  .about-hero-container {
+    margin: 0 5.5rem;
+  }
+
+  .cities-town-section {
+    padding: 0 2rem;
+  }
+  .town-contaier {
+    width: 85%;
+    height: 85%;
+  }
+
+  .offer-container {
+    padding: 0px 32px;
+  }
+
+  .about-ture {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+  .deals-link:link,
+  .deals-link:visited,
+  .ture-link:link,
+  .ture-link:visited,
+  .cta-main-button a:link,
+  .cta-main-button a:visited {
+    font-size: 1rem;
+  }
+
+  .town-button {
+    right: 0%;
+    top: 43%;
+    left: inherit;
+  }
+  .best-location-container {
+    padding: 0 4rem;
+  }
+
+  .location-view {
+    width: 58%;
+  }
+
+  .form-section {
+    padding: 0 5rem;
+  }
+
+  .action-2-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* column-gap: 20px; */
+    flex-wrap: wrap;
+  }
+
+  .number-box {
+    width: 45%;
+    flex-shrink: 0;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  .cta-action-container {
+    padding: 0 2rem;
+  }
+
+  .best-deals {
+    margin-right: 3rem;
+    margin-left: 3rem;
+  }
+
+  .deals-title,
+  .deals-big-title,
+  .deals-link {
+    margin-left: 7rem;
+    margin-right: 7rem;
+  }
+
+  .deals-item {
+    width: 45%;
+    margin: 0 0.75rem;
+  }
+  .deals-item-header {
+    line-height: 23px;
+  }
+
+  .weekly-limit,
+  .time-duration {
+    width: 50%;
+    display: block;
+  }
+
+  .time-duration svg,
+  .weekly-limit svg {
+    position: relative;
+    top: 1px;
+  }
+}
