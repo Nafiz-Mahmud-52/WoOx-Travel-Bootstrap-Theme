@@ -443,7 +443,7 @@ body:not(.light) {
 
 .direction:hover svg,
 .direction:active svg {
-  margin-left: 5px;
+  margin-left: 0.5rem;
 }
 
 .france-link:link,

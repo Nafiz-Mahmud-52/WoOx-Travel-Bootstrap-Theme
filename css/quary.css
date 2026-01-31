@@ -199,7 +199,6 @@
   .deals-item {
     width: 45%;
     margin: 0 0.75rem;
-    flex: 1;
   }
 
   .deals-item-container div:last-child {
@@ -224,7 +223,7 @@
 }
 
 /* ////////////////////////////////////// */
-/* minimum width: 784px */
+/* minimum width: 992px */
 /* ////////////////////////////////////// */
 
 @media (min-width: 62em) {
@@ -280,22 +279,35 @@
   }
 
   .country-introduct {
-    padding: 0 3rem;
+    padding: 0;
+    width: 55%;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 
   .country-img {
-    width: 35%;
-    height: 35%;
+    width: 37%;
+    height: 37%;
+  }
+
+  .about-country {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .main-about-country {
+    width: 60%;
   }
 
   .country-item {
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     gap: 1.5rem;
   }
 
   .live-location {
-    padding: 0 3rem;
+    padding: 0 1rem;
+    width: 38%;
   }
 
   .offer-price {
@@ -495,10 +507,334 @@
     align-content: center;
   }
 
-  .bi-arrow-left-short,
-  .bi-arrow-right-short {
-    width: 2.5rem;
-    height: 2.5rem;
+  .action-2-section {
+    padding: 0 12px;
+  }
+  .action-2-container {
+    flex-wrap: nowrap;
+    gap: 1.5rem;
+  }
+
+  .number-box,
+  .action-2-container .number-box:nth-child(3) {
+    margin: 0;
+    width: 32%;
+    flex-shrink: 1;
+  }
+
+  .cta-form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1.5rem;
+  }
+
+  /* .cta-form div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+  } */
+  .cta-form div:nth-child(6) {
+    align-self: center;
+  }
+}
+
+/* ////////////////////////////////////// */
+/* minimum width: 1200px */
+/* ////////////////////////////////////// */
+
+@media (min-width: 75em) {
+  .header-section {
+    height: 70px;
+  }
+  .hero-sub-title {
+    font-size: 1.25rem;
+  }
+
+  .banner-title {
+    font-size: 3.125rem;
+  }
+
+  .banner-info {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .banner-info div:nth-child(2) {
+    left: 0;
+  }
+
+  .avg-price,
+  .traveling,
+  .follower {
+    margin-bottom: 0;
+  }
+
+  .home-icon,
+  .globe-icon,
+  .people-icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .banner-info-title {
+    font-size: 0.875rem;
+  }
+
+  .bi-person-fill,
+  .bi-globe-fill,
+  .bi-house-door-fill {
+    width: 2.625rem;
+    height: 2.625rem;
+  }
+
+  .explore-info:link,
+  .explore-info:visited {
+    font-size: 1rem;
+  }
+
+  .more-info {
+    padding-left: 3px;
+    margin-left: auto;
+  }
+
+  .nav-section {
+    width: 100%;
+    bottom: -90%;
+  }
+
+  .main-nav li {
+    width: 10%;
+  }
+
+  .country-introduct {
+    padding: 0;
+    width: 55%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .country-img {
+    width: 37%;
+    height: 37%;
+  }
+
+  .about-country {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .main-about-country {
+    width: 60%;
+  }
+
+  .country-item {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    gap: 1.5rem;
+  }
+
+  .live-location {
+    padding: 0 1rem;
+    width: 38%;
+  }
+
+  .offer-price {
+    width: 48%;
+  }
+
+  .reservation-hero-container,
+  .about-hero-container {
+    margin: 0 5.5rem;
+  }
+
+  .cities-town-section {
+    padding: 0 1rem;
+  }
+
+  .offer-container {
+    padding: 0 1rem;
+  }
+
+  .offer-price-container {
+    gap: 2rem;
+  }
+
+  .offer-details {
+    width: 270px;
+  }
+
+  .about-ture {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
+  .town-contaier {
+    width: 100%;
+    height: 100%;
+  }
+
+  .town-container-1 {
+    width: 47.5%;
+    height: 47.5%;
+  }
+
+  .town-container-1 img {
+    width: 100%;
+    border-radius: 1rem;
+  }
+
+  .town-button {
+    right: 0%;
+    top: 6%;
+    left: inherit;
+  }
+
+  .town-contaier {
+    padding: 50px;
+  }
+
+  .best-location-container {
+    padding: 0 4rem;
+  }
+
+  .location-view {
+    width: 47.5%;
+  }
+
+  .form-section {
+    padding: 0 4rem;
+  }
+
+  .action-2-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .best-deals-container {
+    padding: 0 3rem;
+  }
+
+  .action-2-container .number-box:nth-child(3) {
+    margin-right: auto;
+    margin-left: 8.8%;
+  }
+
+  .number-box {
+    width: 40%;
+    flex-shrink: 0;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  .cta-action-container {
+    padding: 0 2.5rem;
+  }
+
+  .best-deals {
+    margin-right: 0;
+    margin-left: 0;
+    align-items: stretch;
+  }
+
+  .deals-title,
+  .deals-big-title,
+  .deals-link {
+    margin-left: 7rem;
+    margin-right: 7rem;
+  }
+
+  .deals-item {
+    width: 45%;
+    margin: 0 0.75rem;
+    flex: 1;
+  }
+
+  .deals-item-container div:last-child {
+    margin-top: auto;
+  }
+
+  .deals-item-header {
+    line-height: 23px;
+  }
+
+  .weekly-limit,
+  .time-duration {
+    width: 50%;
+    display: block;
+  }
+
+  .time-duration svg,
+  .weekly-limit svg {
+    position: relative;
+    top: 1px;
+  }
+
+  .form-container {
+    display: flex;
+    column-gap: 3rem;
+    align-items: center;
+    /* justify-content: space-between; */
+  }
+  .main-form {
+    display: flex;
+    column-gap: 2rem;
+    width: 100%;
+  }
+
+  .location-price-submit {
+    width: auto;
+  }
+
+  .best-deals {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 4rem;
+  }
+
+  .best-deals .deals-item:nth-child(4) {
+    margin-bottom: 0;
+  }
+  .deals-item {
+    width: 100%;
+    margin: 0;
+    flex-direction: row;
+    background: var(--as-backgroud-color);
+    border-radius: 23px;
+  }
+
+  .deals-img-1,
+  .deals-img-2,
+  .deals-img-3,
+  .deals-img-4 {
+    width: 50%;
+    height: 268px;
+    object-fit: cover;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 23px;
+  }
+
+  .deals-item-container {
+    padding: 20px;
+    margin-bottom: 0;
+    width: 60%;
+  }
+
+  .deals-item-header {
+    font-size: 1.375rem;
+    line-height: 1.75rem;
+  }
+
+  .page-list a:link,
+  .page-list a:visited {
+    font-size: 1.25rem;
+    width: 3.125rem;
+    height: 3.125rem;
+    align-content: center;
   }
 
   .action-2-section {
@@ -514,5 +850,19 @@
     margin: 0;
     width: 32%;
     flex-shrink: 1;
+  }
+
+  .cta-form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1.5rem;
+  }
+
+  /* .cta-form div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+  } */
+  .cta-form div:nth-child(6) {
+    align-self: center;
   }
 }
