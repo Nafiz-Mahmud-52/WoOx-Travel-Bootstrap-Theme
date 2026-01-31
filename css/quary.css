@@ -308,10 +308,40 @@
   .live-location {
     padding: 0 1rem;
     width: 38%;
+    margin: 0;
   }
 
   .offer-price {
-    width: 48%;
+    width: 38%;
+  }
+
+  .about-ture-container {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+  }
+
+  .about-ture {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  .ture-img {
+    width: 50%;
+    height: 100%;
+  }
+
+  .ture-info-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1.5rem;
+  }
+
+  .ture-info-box .ture-info:nth-child(3) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+    grid-column: 1 / -1;
   }
 
   .reservation-hero-container,
@@ -335,19 +365,14 @@
     width: 270px;
   }
 
-  .about-ture {
-    margin-left: 5rem;
-    margin-right: 5rem;
-  }
-
   .town-contaier {
     width: 100%;
     height: 100%;
   }
 
   .town-container-1 {
-    width: 47.5%;
-    height: 47.5%;
+    width: 30.8%;
+    height: 30.8%;
   }
 
   .town-container-1 img {
@@ -370,7 +395,7 @@
   }
 
   .location-view {
-    width: 47.5%;
+    width: 40%;
   }
 
   .form-section {
@@ -447,8 +472,8 @@
     display: flex;
     column-gap: 3rem;
     align-items: center;
-    /* justify-content: space-between; */
   }
+
   .main-form {
     display: flex;
     column-gap: 2rem;
@@ -482,7 +507,7 @@
   .deals-img-3,
   .deals-img-4 {
     width: 50%;
-    height: 268px;
+    height: 290px;
     object-fit: cover;
     border-top-right-radius: 0;
     border-bottom-left-radius: 23px;
@@ -528,12 +553,24 @@
     column-gap: 1.5rem;
   }
 
-  /* .cta-form div:nth-child(1) {
-    display: flex;
-    flex-direction: column;
-  } */
   .cta-form div:nth-child(6) {
     align-self: center;
+  }
+
+  .contact-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 75px 48px;
+  }
+
+  .cta-header,
+  .cta-text {
+    text-align: left;
+  }
+
+  .cta-link:link,
+  .cta-link:visited {
+    margin-top: 0;
   }
 }
 
@@ -542,9 +579,65 @@
 /* ////////////////////////////////////// */
 
 @media (min-width: 75em) {
+  .about-header-section,
   .header-section {
     height: 70px;
+    position: fixed;
+    padding: 0 2rem;
   }
+
+  .about-btn-mobile-nav,
+  .btn-mobile-nav {
+    display: none;
+  }
+
+  .main-header-nav {
+    display: block;
+  }
+
+  .main-header-nav li {
+    position: relative;
+  }
+
+  .header-nav {
+    display: flex;
+    gap: 2rem;
+    margin-right: 1.5rem;
+  }
+
+  .header-nav-list:link,
+  .header-nav-list:visited {
+    color: var(--white-color);
+    font-size: 1rem;
+    display: inline-block;
+    transition: all 0.3s;
+    height: 2.5rem;
+    margin: 0 0.5rem;
+    align-content: center;
+  }
+
+  .header-nav-list:hover::after,
+  .header-nav-list:hover,
+  .header-nav-list:active {
+    opacity: 0.8;
+  }
+
+  .header-nav-list::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    display: flex;
+    position: relative;
+    bottom: -5px;
+    background: transparent;
+    transition: all 0.3s;
+  }
+
+  /* .header-nav-list:active::after*/
+  .header-nav-list:hover::after {
+    background: var(--white-color);
+  }
+
   .hero-sub-title {
     font-size: 1.25rem;
   }
@@ -556,6 +649,9 @@
   .banner-info {
     display: flex;
     gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4.125rem;
   }
 
   .banner-info div:nth-child(2) {
@@ -641,7 +737,7 @@
   }
 
   .offer-price {
-    width: 48%;
+    width: 31.5%;
   }
 
   .reservation-hero-container,
@@ -666,8 +762,8 @@
   }
 
   .about-ture {
-    margin-left: 5rem;
-    margin-right: 5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
   }
 
   .town-contaier {
@@ -676,8 +772,8 @@
   }
 
   .town-container-1 {
-    width: 47.5%;
-    height: 47.5%;
+    width: 22.7%;
+    height: 22.7%;
   }
 
   .town-container-1 img {
@@ -700,7 +796,7 @@
   }
 
   .location-view {
-    width: 47.5%;
+    width: 31.5%;
   }
 
   .form-section {
@@ -812,7 +908,7 @@
   .deals-img-3,
   .deals-img-4 {
     width: 50%;
-    height: 268px;
+    height: 300px;
     object-fit: cover;
     border-top-right-radius: 0;
     border-bottom-left-radius: 23px;

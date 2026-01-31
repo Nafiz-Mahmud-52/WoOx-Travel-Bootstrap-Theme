@@ -72,6 +72,10 @@ h6 {
 /* HEADER SECTION */
 /* ////////////////////////////////////// */
 
+.main-header-nav {
+  display: none;
+}
+
 .about-header-section {
   background: var(--primery-color);
   height: 71px;
@@ -83,7 +87,7 @@ h6 {
   justify-content: space-between;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
 
-  position: fixed;
+  position: absolute;
   z-index: 22;
 }
 .about-nav-logo {
