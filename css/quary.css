@@ -255,6 +255,9 @@
   .people-icon {
     width: 43px;
     height: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .bi-person-fill,
@@ -498,6 +501,7 @@
   .best-deals .deals-item:nth-child(4) {
     margin-bottom: 0;
   }
+
   .deals-item {
     width: 100%;
     margin: 0;
@@ -539,6 +543,7 @@
   .action-2-section {
     padding: 0 12px;
   }
+
   .action-2-container {
     flex-wrap: nowrap;
     gap: 1.5rem;
@@ -562,9 +567,14 @@
   }
 
   .contact-container {
+    padding: 75px 24px;
+  }
+
+  .contact-text {
+    text-align: center;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    padding: 75px 48px;
   }
 
   .cta-header,
@@ -637,7 +647,6 @@
     transition: all 0.3s;
   }
 
-  /* .header-nav-list:active::after*/
   .header-nav-list:hover::after {
     background: var(--white-color);
   }
@@ -656,7 +665,7 @@
     align-items: center;
     justify-content: center;
     border-radius: 4.125rem;
-    margin-top: 6rem;
+    margin-top: 8rem;
   }
 
   .banner-info div:nth-child(2) {
@@ -674,9 +683,6 @@
   .people-icon {
     width: 50px;
     height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
 
   .banner-info-title {
@@ -702,7 +708,7 @@
 
   .nav-section {
     width: 100%;
-    bottom: -90%;
+    bottom: -100%;
   }
 
   .main-nav li {
@@ -878,8 +884,8 @@
     display: flex;
     column-gap: 3rem;
     align-items: center;
-    /* justify-content: space-between; */
   }
+
   .main-form {
     display: flex;
     column-gap: 2rem;
@@ -900,6 +906,7 @@
   .best-deals .deals-item:nth-child(4) {
     margin-bottom: 0;
   }
+
   .deals-item {
     width: 100%;
     margin: 0;
@@ -959,10 +966,415 @@
     column-gap: 1.5rem;
   }
 
-  /* .cta-form div:nth-child(1) {
+  .cta-form div:nth-child(6) {
+    align-self: center;
+  }
+}
+
+/* ////////////////////////////////////// */
+/* minimum width: 1400px */
+/* ////////////////////////////////////// */
+
+@media (min-width: 87.5em) {
+  .about-header-section,
+  .header-section {
+    height: 70px;
+    position: fixed;
+    padding: 0;
+  }
+
+  .header-container {
+    padding: 0;
+  }
+
+  .header-container,
+  .hero-absolute-container,
+  .visit-country-container,
+  .contact-text,
+  .footer-container,
+  .about-hero-container,
+  .town-contaier,
+  .offer-container,
+  .about-ture-container,
+  .best-location-container,
+  .deals-text,
+  .form-section,
+  .best-deals-container,
+  .reservation-hero-container,
+  .action-2-section,
+  .cta-action-container {
+    width: 85rem;
+    margin: 0 auto;
+  }
+
+  .about-btn-mobile-nav,
+  .btn-mobile-nav {
+    display: none;
+  }
+
+  .main-header-nav {
+    display: block;
+  }
+
+  .main-header-nav li {
+    position: relative;
+  }
+
+  .header-nav {
     display: flex;
-    flex-direction: column;
-  } */
+    gap: 2rem;
+    margin-right: 1.5rem;
+  }
+
+  .header-nav-list:link,
+  .header-nav-list:visited {
+    color: var(--white-color);
+    font-size: 1rem;
+    display: inline-block;
+    transition: all 0.3s;
+    height: 2.5rem;
+    margin: 0 0.5rem;
+    align-content: center;
+  }
+
+  .header-nav-list:hover::after,
+  .header-nav-list:hover,
+  .header-nav-list:active {
+    opacity: 0.8;
+  }
+
+  .header-nav-list::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    display: flex;
+    position: relative;
+    bottom: -5px;
+    background: transparent;
+    transition: all 0.3s;
+  }
+
+  .header-nav-list:hover::after {
+    background: var(--white-color);
+  }
+
+  .hero-sub-title {
+    font-size: 1.25rem;
+  }
+
+  .banner-title {
+    font-size: 3.125rem;
+  }
+
+  .banner-info {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4.125rem;
+    margin-top: 8rem;
+  }
+
+  .banner-info div:nth-child(2) {
+    left: 0;
+  }
+
+  .avg-price,
+  .traveling,
+  .follower {
+    margin-bottom: 0;
+  }
+
+  .home-icon,
+  .globe-icon,
+  .people-icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .banner-info-title {
+    font-size: 0.875rem;
+  }
+
+  .bi-person-fill,
+  .bi-globe-fill,
+  .bi-house-door-fill {
+    width: 2.625rem;
+    height: 2.625rem;
+  }
+
+  .explore-info:link,
+  .explore-info:visited {
+    font-size: 1rem;
+  }
+
+  .more-info {
+    padding-left: 3px;
+    margin-left: auto;
+  }
+
+  .nav-section {
+    width: 100%;
+    bottom: -100%;
+  }
+
+  .main-nav li {
+    width: 10%;
+  }
+
+  .country-introduct {
+    padding: 0;
+    width: 55%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .country-img {
+    width: 37%;
+    height: 37%;
+  }
+
+  .about-country {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .main-about-country {
+    width: 60%;
+  }
+
+  .country-item {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    gap: 1.5rem;
+  }
+
+  .live-location {
+    padding: 0 1rem;
+    width: 38%;
+  }
+
+  .offer-price {
+    width: 31.5%;
+  }
+
+  .cities-town-section {
+    padding: 0 1rem;
+  }
+
+  .offer-container {
+    padding: 0 1rem;
+  }
+
+  .offer-price-container {
+    gap: 0;
+    justify-content: space-between;
+  }
+
+  .offer-details {
+    width: 270px;
+  }
+
+  .about-ture {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  .twon-picture {
+    justify-content: space-between;
+    gap: 0;
+  }
+
+  .town-container-1 {
+    width: 22.7%;
+    height: 22.7%;
+  }
+
+  .town-container-1 img {
+    width: 100%;
+    border-radius: 1rem;
+  }
+
+  .location-option {
+    padding: 0;
+  }
+  .town-button {
+    right: 0%;
+    top: 6%;
+    left: inherit;
+  }
+
+  .town-contaier {
+    padding: 50px;
+  }
+
+  .best-location-container {
+    padding: 0 2rem;
+  }
+
+  .location-view {
+    width: 31.5%;
+  }
+
+  .location-option {
+    gap: 2.3rem;
+  }
+  .form-section {
+    padding: 0 4rem;
+  }
+
+  .action-2-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .best-deals-container {
+    padding: 0 3rem;
+  }
+
+  .action-2-container .number-box:nth-child(3) {
+    margin-right: auto;
+    margin-left: 8.8%;
+  }
+
+  .number-box {
+    width: 40%;
+    flex-shrink: 0;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  .cta-action-container {
+    padding: 0 2rem;
+  }
+
+  .best-deals {
+    margin-right: 0;
+    margin-left: 0;
+    align-items: stretch;
+  }
+
+  .deals-title,
+  .deals-big-title,
+  .deals-link {
+    margin-left: 7rem;
+    margin-right: 7rem;
+  }
+
+  .deals-item {
+    width: 45%;
+    margin: 0 0.75rem;
+    flex: 1;
+  }
+
+  .deals-item-container div:last-child {
+    margin-top: auto;
+  }
+
+  .deals-item-header {
+    line-height: 23px;
+  }
+
+  .weekly-limit,
+  .time-duration {
+    width: 50%;
+    display: block;
+  }
+
+  .time-duration svg,
+  .weekly-limit svg {
+    position: relative;
+    top: 1px;
+  }
+
+  .form-container {
+    display: flex;
+    column-gap: 3rem;
+    align-items: center;
+  }
+
+  .main-form {
+    display: flex;
+    column-gap: 2rem;
+    width: 100%;
+  }
+
+  .location-price-submit {
+    width: auto;
+  }
+
+  .best-deals {
+    display: grid;
+    gap: 2.5rem;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 4rem;
+  }
+
+  .best-deals .deals-item:nth-child(4) {
+    margin-bottom: 0;
+  }
+
+  .deals-item {
+    width: 100%;
+    margin: 0;
+    flex-direction: row;
+    background: var(--as-backgroud-color);
+    border-radius: 23px;
+  }
+
+  .deals-img-1,
+  .deals-img-2,
+  .deals-img-3,
+  .deals-img-4 {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 23px;
+  }
+
+  .deals-item-container {
+    padding: 20px;
+    margin-bottom: 0;
+    width: 60%;
+  }
+
+  .deals-item-header {
+    font-size: 1.375rem;
+    line-height: 1.75rem;
+  }
+
+  .page-list a:link,
+  .page-list a:visited {
+    font-size: 1.25rem;
+    width: 3.125rem;
+    height: 3.125rem;
+    align-content: center;
+  }
+
+  .action-2-section {
+    padding: 0 12px;
+  }
+  .action-2-container {
+    flex-wrap: nowrap;
+    gap: 1.5rem;
+  }
+
+  .number-box,
+  .action-2-container .number-box:nth-child(3) {
+    margin: 0;
+    width: 32%;
+    flex-shrink: 1;
+  }
+
+  .cta-form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2.5rem;
+  }
+
   .cta-form div:nth-child(6) {
     align-self: center;
   }
