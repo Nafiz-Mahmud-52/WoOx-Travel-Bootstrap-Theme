@@ -18,10 +18,6 @@
 /* DEALS HERO SECTION */
 /* ////////////////////////////////////// */
 
-.deals-section {
-}
-.deals-container {
-}
 .deals-background-img {
   background-image: url(../images/heading-bg.jpg);
   background-position: center;
@@ -75,9 +71,6 @@
   margin: 7px 0px 13px 0px;
 }
 
-.main-form {
-}
-
 .location-select,
 .price-select {
   font-size: 15px;
@@ -92,9 +85,6 @@
   padding-bottom: 0.5rem;
   padding-left: 0.5rem;
   background: var(--primery-color);
-}
-
-.price-select {
 }
 
 .location-price-submit {
@@ -151,8 +141,6 @@
   height: auto;
   border-top-left-radius: 23px;
   border-top-right-radius: 23px;
-}
-.best-deals {
 }
 
 .deals-item {

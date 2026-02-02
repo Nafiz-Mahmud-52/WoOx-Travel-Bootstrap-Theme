@@ -349,9 +349,6 @@
   margin-bottom: 40px;
 }
 
-.ture-info-box {
-}
-
 .ture-info {
   background: var(--as-backgroud-color);
   border-radius: 10px;
@@ -372,8 +369,6 @@
 .ture-info-box .ture-info:nth-child(3) {
   display: flex;
   flex-direction: column;
-}
-.ture-info-in {
 }
 
 .location-text,
